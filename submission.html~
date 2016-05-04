@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+ LHU COMPANION APP EVENT PAGE
+-->
+<html>
+<link rel="stylesheet" type="text/css" href="lhu.css">
+    <head>
+        <title>LHU Event Submission</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+	
+    <body bgcolor="maroon"><font face="helvetica">
+        <form action = " ">
+
+            <div class = "pic"><img src="lhu_eagle.png" alt ="lhu logo"></div>
+			<ul class="menu"><div class = "menu">
+  <li><a href="index.html"><span>Home</span></a></li>
+  <li><a href="about.html"><span>About Us | Contact</span></a></li>
+  <li><a href="submission.html" class="active"><span>Submission</span></a></li>
+</ul>
+</div>
+<h2>LHU Companion App</h2>
+			<center>
+			<div class ="box1">
+			<h1>Event Submission Form<br/></h1>
+			
+            <h4> Event Details </h4>
+	    <table>
+            <tr>
+            <td> Name of Event: </td> <td> 
+            <input type = "text" name = "txtEventName" id = "txtEventName"/>
+            </td>
+            </tr>
+
+			 <tr>
+                    <td> Event Host: </td> <td> 
+                        <input type = "text" name = "txtName" id = "txtName"/>
+                    </td>
+            </tr>
+			
+			
+            <tr>
+            <td> Event Location: </td> <td> 
+            <input type = "text" name = "txtEventLoc" id = "txtEventLoc"/>
+            </td>
+            </tr>
+
+	    <tr>
+            <td> Date and Time: </td> <td> 
+            <input type = "text" name = "txtEventLoc" id = "txtEventWhen"/>
+            </td>
+            </tr>
+	    </table> </br>
+
+	    <table>
+            
+            <div><center> <h4> Event Description </h4> </center></div>
+            
+	    <textarea name ='eventDescBox' id ='eventDesc' rows ="5" cols="30"> </textarea>
+	   
+            </table>
+            <input type ="image" src="subbutt.png" width= "25%" height="2%" id ="submitEvent" value ="Submit Event"/>
+            
+            </div>
+        </center>
+        </form>  
+    </font>
+    </body>
+</html>

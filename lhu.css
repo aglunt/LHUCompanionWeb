@@ -1,0 +1,116 @@
+div.pic
+{
+	background-color: #cccccc;
+	z-index: -2;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	
+}
+h2
+{
+
+	text-align:center;
+	font-size: 420%;
+	bottom: 190px;
+	position:relative;
+	text-shadow: 2px 1px black;
+	color: maroon;
+
+}
+
+h1
+{
+	
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;	
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+}
+div.box1
+{
+	bottom: 120px;
+	background-color: #cccccc;
+	width: 550px;
+    	padding: 25px;
+    	margin: 25px;
+	border-radius: 20px;
+	position:relative;
+	box-shadow: 3px 3px 3px black;
+
+}
+
+div.menu
+{
+	position: relative;
+	top: -14px;
+	
+}
+div.let
+{
+	text-align: center;
+	font-size: 15px;
+	font-weight: none;
+
+}
+div.left
+{
+	text-align: center;
+	font-size: 15px;
+	font-weight: none;
+
+}
+
+div.Welc
+{
+	font-size: 25px;
+	font-weight: bold;
+	
+
+}
+
+div.We
+{
+	font-size: 25px;
+	font-weight: bold;
+	
+	
+
+}
+
+div.aboux
+{
+	display:inline-block;
+	background-color: rgba(204,204,204,0.4);
+	text-align: left;
+	padding: 15px;
+	width: 350px;
+	height: 475px;
+	position:relative;
+	bottom: 120px;
+	
+}
+div.aboux2
+{
+	display:inline-block;
+	background-color: rgba(204,204,204,0.8);
+	text-align: left;
+	padding: 15px;
+	width: 350px;
+	height: 475px;
+	position:relative;
+	bottom: 120px;
+}
+
+
+
+/* Generated via www.cssmenubuilder.com */
+
+.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('topMenuImages.png') repeat-x;}
+.menu li{padding:0; margin:0; list-style:none; display:inline;}
+.menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url('topMenuImages.png') 0px -30px no-repeat;}
+.menu li a span{line-height:30px; float:l; display:block; padding-right:15px; background:url('topMenuImages.png') 100% -30px no-repeat;}
+.menu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+.menu li a:hover span{background-position:100% -60px;}
+.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; background:url('topMenuImages.png') 0px -90px no-repeat; color:rgb(255,255,255);}
+.menu li a.active span, .menu li a.active:hover span{background:url('topMenuImages.png') 100% -90px no-repeat;}
